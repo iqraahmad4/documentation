@@ -2,3 +2,10 @@ theme: jekyll-theme-slate
 
 plugins:
   - jemoji
+  - jekyll-relative-links
+relative_links:
+  enabled: true
+  collections: true
+include:
+  - pageone.md
+  - README.md
